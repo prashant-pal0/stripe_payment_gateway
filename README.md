@@ -27,13 +27,15 @@
 
 4. Migrate the database:
 
-   ```npx prisma migrate dev --name init
+   ```
+   npx prisma migrate dev --name init
 
    ```
 
 5. Generate Prisma Client:
 
-   ```npx prisma generate
+   ```
+   npx prisma generate
 
    ```
 
