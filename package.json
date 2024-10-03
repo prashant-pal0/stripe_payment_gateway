@@ -1,0 +1,35 @@
+{
+  "name": "stripepayment",
+  "version": "1.0.0",
+  "description": "Integration stripe payment gateway",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prashant-pal0/stripe_payment_gateway.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prashant-pal0/stripe_payment_gateway/issues"
+  },
+  "homepage": "https://github.com/prashant-pal0/stripe_payment_gateway#readme",
+  "dependencies": {
+    "@prisma/client": "^5.20.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "pg": "^8.13.0",
+    "prisma": "^5.20.0",
+    "stripe": "^17.0.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
